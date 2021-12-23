@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>مبلمان ایرانیان</title>
+
+</head>
+<body>
+<!--header section starts-->
+<header class="header">
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <div id="cart-btn" class="fas fa-shopping-cart"></div>
+        <div id="login-btn" class="fas fa-user"></div>
+    </div>
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="جستجو کنید..."/>
+        <lable for="search-box" class="fas fa-search"></lable>
+    </form> 
+    <a href="index.html" class="logo">مبلمان ایرانیان<i class="fas fa-lightbulb"></i></a>
+</header>
+<!--header section ends-->   
+<!--closer btn-->
+<div id="closer" class="fas fa-times"></div> 
+<!--navbar-->
+<nav class="navbar">
+    <a href="home.html">صفحه اصلی</a>
+    <a href="shop.html">فروشگاه</a>
+    <a href="about.html">درباره ما</a>
+    <a href="team.html">مدیریت</a>
+    <a href="blog.html">وبلاگ</a>
+    <a href="contact.html">تماس با ما</a>
+</nav>
+<!--shopping cart-->
+<div class="shopping-cart">
+    <div class="box">
+        <i class="fas fa-times"></i>
+        <img src="image/cart-img-1.jpg">
+        <div class="content">
+            <h3>مبل نسیم</h3>
+            <span class="quantity">1</span>
+            <span class="multiply">*</span>
+            <span class="price">تومان 1.200.000</span>
+        </div>
+    </div>
+    <div class="box">
+        <i class="fas fa-times"></i>
+        <img src="image/cart-img-2.jpg">
+        <div class="content">
+            <h3>مبل دلگشا</h3>
+            <span class="quantity">1</span>
+            <span class="multiply">*</span>
+            <span class="price">تومان 750.000</span>
+        </div>
+    </div>
+    <div class="box">
+        <i class="fas fa-times"></i>
+        <img src="image/cart-img-3.jpg">
+        <div class="content">
+            <h3>صندلی راحتی</h3>
+            <span class="quantity">1</span>
+            <span class="multiply">*</span>
+            <span class="price">تومان 200.000</span>
+        </div>
+    </div>
+    <div class="box">
+        <i class="fas fa-times"></i>
+        <img src="image/cart-img-4.jpg">
+        <div class="content">
+            <h3>مبل آرامش</h3>
+            <span class="quantity">1</span>
+            <span class="multiply">*</span>
+            <span class="price">تومان 1.450.000</span>
+        </div>
+    </div>
+    <h3 class="total">جمع نهایی <span>2.500.000</span> تومان</h3>
+    <a href="#" class="btn">پرداخت فاکتور</a>
+</div>
+<!--login form-->
+<div class="login-form">
+    <form action="">
+        <h3>فرم ورود</h3>
+        <input type="email" placeholder="پست الکترونیک" class="box">
+        <input type="password" placeholder="کلمه عبور" class="box">
+        <div class="remember">
+            <input type="checkbox" id="remember-me">
+            <label for="remember-me">مرا به یاد داشته باش</label>
+        </div>
+        <input type="submit" class="btn" value="ورود">
+        <p>فراموشی کلمه عبور <a href="#">اینجا کلیک کنید...</a></p>
+        <p>ایجاد حساب کاربری <a href="#">اینجا کلیک کنید...</a></p>
+    </form>
+</div>
+
+<section class="heading">
+    <h3>درباره ما</h3>
+    <p><a href="index.html"> صفحه اصلی / </a><span> درباره ما</span></p>
+</section>
+<section class="about">
+    <div class="image">
+        <img src="image/about-img.jpg">
+    </div>
+    <div class="content">
+        <span>به مبلمان ایرانیان خوش آمدید</span>
+        <h3>ما به منزل شما جلوه زیبا تری می دهیم</h3>
+        <p>مبلمان ایرانیان با بیش از 30 سال سابقه تولید زیباترین مبلمان اداری و منزل همواره درصدد بهبود کیفیت مشتریان عزیز خود بوده است</p>
+        <P>در فروشگاه های مبلمان ایرانیان پرسنل حرفه ای ما با راهنمایی و ارائه مشاوره شما را در انتخاب بهترین مبلمان یاری می نمایند</P>
+        <a href="#" class="btn">بیشتر ببینید</a>
+    </div>
+</section>
+<section class="services">
+    <h2 class="title"><a href="#"> همه محصولات <<</a><span>محصولات</span></h2>
+    <div class="box-container">
+        <div class="box">
+            <img src="image/serv-1.svg">
+            <h3>فروش محصولات</h3>
+            <p>می توانید همه روزه و در تمام ساعات شبانه روز انواع محصولات مبلمان را از شعب منتخب فروشگاه خریداری نمایید</p>
+            <a href="#" class="btn">بیشتر ببینید</a>
+        </div>
+        <div class="box">
+            <img src="image/serv-2.svg">
+            <h3>طراحی محصولات</h3>
+            <p>کارشناسان طراحی مبلمان ایرانیان با نوآوری و استفاده از علم روز دنیا زیبا ترین و با کیفیت ترین محصول را ل را طراحی می تمایند</p>
+            <a href="#" class="btn">بیشتر ببینید</a>
+        </div>
+        <div class="box">
+            <img src="image/serv-3.svg">
+            <h3>خدمات شبانه روزی</h3>
+            <p>تیم پشیبانی مبلمان ایرانیان بطور شبانه روزی در خدمت مشتریان گرامی بوده و سولات شما را همراه با پیشنهادات ویژه پاسخگو هستند</p>
+            <a href="#" class="btn">بیشتر ببینید</a>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+<!--footer section starts-->
+<footer>
+    <div class="box-container">
+        <div class="box">
+            <h3>دسترسی سریع</h3>
+            <a href="home.html"> <i class="fas fa-arrow-left"></i>صفحه اصلی</a>
+            <a href="shop.html"> <i class="fas fa-arrow-left"></i>فروشگاه</a>
+            <a href="about.html"> <i class="fas fa-arrow-left"></i>درباره ما</a>
+            <a href="team.html"> <i class="fas fa-arrow-left"></i>مدیریت</a>
+            <a href="blog.html"> <i class="fas fa-arrow-left"></i>وبلاگ</a>
+            <a href="contact.html"> <i class="fas fa-arrow-left"></i>تماس با ما</a>
+        </div>
+        <div class="box">
+            <h3>سایر لینک ها</h3>
+            <a href="#"> <i class="fas fa-arrow-left"></i>سفارش من</a>
+            <a href="#"> <i class="fas fa-arrow-left"></i>علاقه مندی ها</a>
+            <a href="#"> <i class="fas fa-arrow-left"></i>حساب کاربری</a>
+            <a href="#"> <i class="fas fa-arrow-left"></i>مدیریت</a>
+            <a href="#"> <i class="fas fa-arrow-left"></i>حساب کاربری</a>
+            <a href="#"> <i class="fas fa-arrow-left"></i>قوانین سایت</a>
+        </div>
+        <div class="box">
+            <h3>رسانه های اجتماعی</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i>صفحه فیس بوک</a>
+            <a href="#"> <i class="fab fa-twitter"></i>حساب توئیتر</a>
+            <a href="#"> <i class="fab fa-instagram"></i>صفحه اینستاگرام</a>
+            <a href="#"> <i class="fab fa-linkedin"></i>صفحه لینکدین</a>
+            <a href="#"> <i class="fab fa-pinterest"></i>حساب پینترست</a>
+            <a href="#"> <i class="fab fa-whatsapp"></i>حساب واتساپ</a>
+        </div>
+        <div class="box">
+            <h3>خبرنامه</h3>
+            <p>برای دریافت آخرین اخبار و اطلاعات آدرس پست الکترونیک خود را وارد نمایید</p>
+            <form action=""> 
+                <input type="email" placeholder="پست الکترونیک" id="" name="">
+                <input type="submit" value="عضو شوید" class="btn">
+            </form>
+        </div>
+    </div>
+</footer>
+<section class="credit">
+<h3>NPISOFTWARE.IR طراحی و توسعه توسط</h3>
+</section>
+<!--footer section ends-->
+    <script src="script.js"></script>
+</body>
+</html>
